@@ -1,0 +1,17 @@
+{
+  "name": "@flextremedev/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flextremedev/configs.git",
+    "directory": "packages/eslint-config"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4.0.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^2.0.0"
+  }
+}
