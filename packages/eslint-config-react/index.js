@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["../eslint-config", "plugin:react/recommended"],
+  extends: ["@flextremedev/eslint-config", "plugin:react/recommended"],
   parserOptions: {
     ecmaFeatures: { jsx: true },
   },
@@ -7,7 +7,6 @@ module.exports = {
   rules: {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/display-name": "error",
   },
   settings: {
     react: {
