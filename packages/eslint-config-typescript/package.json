@@ -1,11 +1,24 @@
 {
-  "name": "@flextremedev/eslint-config-typescript",
-  "version": "0.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/flextremedev/configs.git",
-    "directory": "packages/eslint-config-typescript"
-  }
+    "name": "@flextremedev/eslint-config-typescript",
+    "version": "0.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/flextremedev/configs.git",
+        "directory": "packages/eslint-config-typescript"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^3.6.1",
+        "eslint": "^7.4.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.20.3",
+        "eslint-plugin-react-hooks": "^2.5.1",
+        "prettier": "^2.0.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/parser": "^3.6.1",
+        "typescript": "^3.9.7"
+    }
 }
