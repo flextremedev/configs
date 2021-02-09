@@ -9,7 +9,7 @@
     "directory": "packages/eslint-config-react"
   },
   "peerDependencies": {
-    "@flextremedev/eslint-config": "^0.0.1-alpha.0",
+    "@flextremedev/eslint-config": "^0.1.0",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^2.5.1"
   },
