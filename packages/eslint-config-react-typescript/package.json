@@ -1,6 +1,6 @@
 {
   "name": "@flextremedev/eslint-config-react-typescript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -13,7 +13,7 @@
     "@flextremedev/eslint-config-typescript": "^0.1.0"
   },
   "devDependencies": {
-    "@flextremedev/eslint-config-react": "^0.1.0",
-    "@flextremedev/eslint-config-typescript": "^0.1.0"
+    "@flextremedev/eslint-config-react": "^0.1.1",
+    "@flextremedev/eslint-config-typescript": "^0.1.1"
   }
 }
