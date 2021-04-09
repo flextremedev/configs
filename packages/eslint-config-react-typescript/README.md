@@ -3,7 +3,7 @@
 Install this package as a dependency:
 
 ```
-yarn add -D @flextremedev/eslint-config-typescript
+yarn add -D @flextremedev/eslint-config-react-typescript
 ```
 
 Make sure to also install these packages:
