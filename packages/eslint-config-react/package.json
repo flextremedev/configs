@@ -9,13 +9,14 @@
     "directory": "packages/eslint-config-react"
   },
   "peerDependencies": {
-    "@flextremedev/eslint-config": "^0.1.0",
+    "@flextremedev/eslint-config": "*",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^2.5.1"
   },
   "devDependencies": {
-    "@flextremedev/eslint-config": "^0.1.1",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^2.5.1"
+    "@flextremedev/eslint-config": "./packages/eslint-config-react",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }

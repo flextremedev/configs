@@ -9,11 +9,11 @@
     "directory": "packages/eslint-config-react-typescript"
   },
   "peerDependencies": {
-    "@flextremedev/eslint-config-react": "^0.1.0",
-    "@flextremedev/eslint-config-typescript": "^0.1.0"
+    "@flextremedev/eslint-config-react": "*",
+    "@flextremedev/eslint-config-typescript": "*"
   },
   "devDependencies": {
-    "@flextremedev/eslint-config-react": "^0.1.1",
-    "@flextremedev/eslint-config-typescript": "^0.1.1"
+    "@flextremedev/eslint-config-react": "./packages/eslint-config-react",
+    "@flextremedev/eslint-config-typescript": "./packages/eslint-config-typescript/"
   }
 }
