@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@flextremedev/eslint-config": "./packages/eslint-config-react",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   }

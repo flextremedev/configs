@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["@flextremedev/eslint-config", "plugin:react/recommended"],
+  extends: [
+    "@flextremedev/eslint-config",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+  ],
   parserOptions: {
     ecmaFeatures: { jsx: true },
   },
