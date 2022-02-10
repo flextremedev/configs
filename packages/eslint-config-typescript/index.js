@@ -10,5 +10,6 @@ module.exports = {
   rules: {
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
     "@typescript-eslint/prefer-interface": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
   },
 };
