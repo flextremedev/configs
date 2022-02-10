@@ -9,10 +9,6 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   rules: {
     "@typescript-eslint/consistent-type-definitions": ["error", "type"],
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      { allowTypedFunctionExpressions: true },
-    ],
     "@typescript-eslint/prefer-interface": "off",
   },
 };
