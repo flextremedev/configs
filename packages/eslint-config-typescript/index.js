@@ -3,7 +3,6 @@ module.exports = {
     "@flextremedev/eslint-config",
     "plugin:@typescript-eslint/recommended",
     "plugin:import/typescript",
-    "prettier/@typescript-eslint",
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint"],
