@@ -6,11 +6,6 @@ module.exports = {
     "plugin:import/warnings",
     "plugin:prettier/recommended",
   ],
-  parser: "babel-eslint",
-  parserOptions: {
-    sourceType: "module",
-    ecmaVersion: 2020,
-  },
   rules: {
     "no-console": "error",
     "no-implicit-coercion": "error",
@@ -29,4 +24,15 @@ module.exports = {
       },
     ],
   },
+  overrides: [
+    {
+      files: ["*.js"],
+      parser: "@babel/eslint-parser",
+      parserOptions: {
+        requireConfigFile: false,
+        sourceType: "module",
+        ecmaVersion: "latest",
+      },
+    },
+  ],
 };
