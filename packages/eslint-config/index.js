@@ -12,6 +12,10 @@ module.exports = {
     "import/first": "error",
     "import/no-default-export": "error",
     "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": [
+      "error",
+      { includeInternal: true, includeTypes: true },
+    ],
     "import/order": [
       "error",
       {
