@@ -12,6 +12,7 @@
     "@flextremedev/eslint-config": "*",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
     "typescript": "^5.0.0"
   },
   "devDependencies": {
