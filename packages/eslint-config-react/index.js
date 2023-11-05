@@ -14,6 +14,7 @@ module.exports = {
     "react/display-name": "off",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "react/prefer-read-only-props": "error",
     "import/order": [
       "error",
       {
