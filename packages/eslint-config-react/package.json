@@ -1,6 +1,6 @@
 {
   "name": "@flextremedev/eslint-config-react",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -9,13 +9,13 @@
     "directory": "packages/eslint-config-react"
   },
   "peerDependencies": {
-    "@flextremedev/eslint-config": "workspace:*",
+    "@flextremedev/eslint-config": "*",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.0"
   },
   "devDependencies": {
-    "@flextremedev/eslint-config": "workspace:*",
+    "@flextremedev/eslint-config": "*",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.0.0"

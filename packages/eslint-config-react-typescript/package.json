@@ -1,6 +1,6 @@
 {
   "name": "@flextremedev/eslint-config-react-typescript",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "main": "index.js",
   "license": "MIT",
   "repository": {
@@ -9,11 +9,11 @@
     "directory": "packages/eslint-config-react-typescript"
   },
   "peerDependencies": {
-    "@flextremedev/eslint-config-react": "workspace:*",
-    "@flextremedev/eslint-config-typescript": "workspace:*"
+    "@flextremedev/eslint-config-react": "*",
+    "@flextremedev/eslint-config-typescript": "*"
   },
   "devDependencies": {
-    "@flextremedev/eslint-config-react": "workspace:*",
-    "@flextremedev/eslint-config-typescript": "workspace:*"
+    "@flextremedev/eslint-config-react": "*",
+    "@flextremedev/eslint-config-typescript": "*"
   }
 }
