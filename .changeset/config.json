@@ -2,7 +2,15 @@
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "fixed": [],
+  "fixed": [
+    [
+      "@flextremedev/prettier-config",
+      "@flextremedev/eslint-config",
+      "@flextremedev/eslint-config-react",
+      "@flextremedev/eslint-config-typescript",
+      "@flextremedev/eslint-config-react-typescript"
+    ]
+  ],
   "access": "public",
   "baseBranch": "master",
   "updateInternalDependencies": "patch",
