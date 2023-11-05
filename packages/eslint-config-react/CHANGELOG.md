@@ -1,5 +1,12 @@
 # @flextremedev/eslint-config-react
 
+## 0.7.3
+
+### Patch Changes
+
+- Updated dependencies
+  - @flextremedev/eslint-config@0.7.3
+
 ## 0.7.2
 
 ### Patch Changes

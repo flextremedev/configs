@@ -1,5 +1,11 @@
 # @flextremedev/prettier-config
 
+## 0.7.3
+
+### Patch Changes
+
+- Bump major dependencies
+
 ## 0.7.1
 
 ### Patch Changes

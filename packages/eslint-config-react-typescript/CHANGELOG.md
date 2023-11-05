@@ -1,5 +1,12 @@
 # @flextremedev/eslint-config-react-typescript
 
+## 0.7.3
+
+### Patch Changes
+
+- @flextremedev/eslint-config-react@0.7.3
+- @flextremedev/eslint-config-typescript@0.7.3
+
 ## 0.7.2
 
 ### Patch Changes
