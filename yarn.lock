@@ -394,7 +394,7 @@ __metadata:
     eslint-config-prettier: ^8.0.0
     eslint-plugin-import: ^2.22.0
     eslint-plugin-prettier: ^4.0.0
-    prettier: ^2.0.0
+    prettier: ^3.0.0
   languageName: unknown
   linkType: soft
 
@@ -402,7 +402,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@flextremedev/prettier-config@workspace:packages/prettier-config"
   peerDependencies:
-    prettier: ^2.0.0
+    prettier: ^3.0.0
   languageName: unknown
   linkType: soft
 
